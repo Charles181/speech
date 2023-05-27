@@ -19,6 +19,7 @@ img{
     align-items: center;
     text-align: center;
     margin: auto;
+    row-gap: 20px;
 }
 .txt-btn p {
     font-size: 20px;
@@ -61,11 +62,7 @@ img{
     
     .txt-btn {
       padding: 20px; /* Adjust the padding as needed */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin: auto;
+     
     }
     
     .txt-btn p {
