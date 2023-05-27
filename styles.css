@@ -1,0 +1,78 @@
+body{
+    font-family: monospace, 'Lucida Sans';
+    background-color: #1d1f33;
+    color: #edf2f4;
+}
+#header{
+    text-align: center;
+    background-color:rgb(4, 4, 27);
+    border: dotted lime 2px;
+}
+img{
+    display: block;
+   margin: auto;
+   padding-top: 10px;
+}
+.txt-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.txt-btn p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.txt-btn #prevent {
+    color: red;
+    text-decoration: underline;
+}
+.txt-btn button {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(39, 39, 87);
+    background-color: #a8aab8;
+}
+.list{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list li{
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* CSS rules for mobile devices */
+    body {
+      font-size: 16px; /* Adjust the font size as needed */
+    }
+    
+    #landing-img {
+      width: 100%; /* Adjust the image size as needed */
+      padding-top: 20px; /* Adjust the padding as needed */
+    }
+    
+    .txt-btn {
+      padding: 20px; /* Adjust the padding as needed */
+    }
+    
+    .txt-btn p {
+      font-size: 18px; /* Adjust the font size as needed */
+    }
+    
+    .txt-btn button {
+      font-size: 24px; /* Adjust the font size as needed */
+    }
+    
+    .list li {
+      padding: 10px; /* Adjust the padding as needed */
+    }
+  }
+  
