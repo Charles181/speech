@@ -77,4 +77,11 @@ img{
       padding: 10px; /* Adjust the padding as needed */
     }
   }
+  .txt-lnk{
+    display: grid;
+    grid-template-areas: lnk-title lnk-title/ lnk1 lnk2;
+  }
+  #lnk-title{
+    grid-area: auto;
+  }
   
