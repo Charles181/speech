@@ -47,6 +47,10 @@ img{
 .list li{
     padding: 20px;
 }
+#usb-img{
+  width: 500px;
+  height: 400px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -80,8 +84,13 @@ img{
   .txt-lnk{
     display: grid;
     grid-template-areas: lnk-title lnk-title/ lnk1 lnk2;
+    justify-content: center;
   }
   #lnk-title{
     grid-area: auto;
+  }
+  .lnk-link{
+    color:limegreen;
+    font-size: 40px;
   }
   
