@@ -47,6 +47,9 @@ img{
 .list li{
     padding: 20px;
 }
+.list a{
+    color: limegreen;
+}
 #usb-img{
   width: 500px;
   height: 400px;
